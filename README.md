@@ -14,9 +14,10 @@ Loja pode:
 
 Por questão de simplicidade vamos assumir que:
 
-Cada empréstimo segue apenas um modelo de cobrança (hora, dia ou semana);
-O cliente pode decidir livremente quantas bicicletas quer alugar;
-Os pedidos de aluguéis só podem ser efetuados se houver bicicletas suficientes disponíveis.
+ 1. Cada empréstimo segue apenas um modelo de cobrança (hora, dia ou semana);
+ 2. O cliente pode decidir livremente quantas bicicletas quer alugar;
+ 3. Os pedidos de aluguéis só podem ser efetuados se houver bicicletas suficientes disponíveis.
+
 Ao projetar seus objetos você deve se atentar ao que cada classe será responsável por fazer, entenda o que cada elemento pode fazer, e em seguida abstraia o problema para desenhar as classes e seus métodos. Note que nem tudo que um objeto pode fazer é necessariamente um método desse objeto.
 
 A classe de testes deve ser feita em outro arquivo, e você deve importar as classes Loja e Cliente do arquivo principal. Utilize a classe datetime para trabalhar com tempo no seu programa, e na classe teste utilize a biblioteca unittest. Cuja a documentação, e sites auxiliares, pode ser encontrada em:
